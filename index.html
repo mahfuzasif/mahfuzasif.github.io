@@ -1,99 +1,310 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
 
-    <title>
-        Mahfuzur Rahman | Portfolio
-    </title>
-    <link rel="stylesheet" href="css/mahfuz.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
-    <script src="js/mahfuz.js"></script>
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta charset="utf-8" />
-    <meta name=”description” content="Mahfuz Asif is an enthusiastic developer based in Bangladesh."/>
-    <meta name=”keywords” content="developer, youtube vlogger, enthusiast, nodejs" />
-    <!-- SOCIAL META TAGS -->
-    <meta property="og:title" content="Mahfuz Asif | Portfolio" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.mahfuzasif.github.io" />
-    <meta property="og:image" content="https://mahfuzasif.github.io/img/mahfuz.PNG" />
-    <meta property="og:description" content="Mahfuz is a Full-Stack Web Developer at WebAble Digital and is presently focusing on all things Javascript. Currently studying Computer Engineering, mahfuz also composes algorithm tutorials for an international audience of Computer Science students on YouTube. Her ultimate mission is to learn new and upcoming software tools - particularly web and mobile technologies and to make something worth remembering that will aid in making people's’ lives easier.
-" />
-    <meta property="og:site_name" content="Mahfuz Asif - Full Stack Developer" />
-    <meta property="fb:admins" content="1510998200" />
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@mahfuzAsif">
-    <meta name="twitter:creator" content="@mahfuzAsif">
-    <meta name="twitter:title" content="mahfuz Asif - Full Stack Developer">
-    <meta name="twitter:description" content="Software Engineer @NewsCred. Content Creater @YouTube. I like to work with new technologies and stuffing myself with chips and burritos.
-">
-    <meta name="twitter:image:src" content="https://mahfuzasif.github.io/img/mahfuz.PNG">
-    <meta itemprop="name" content="Mahfuz Asif - Full Stack Developer">
-    <meta itemprop="description" content="Mahfuz is a Software Engineer at NewsCred and is presently focusing on all things MEAN Stack and Python. Having an Engineering Degree, mahfuz also composes algorithm tutorials for an international audience of Computer Science students on YouTube. Her ultimate mission is to learn new and upcoming software tools - particularly web and mobile technologies and to make something worth remembering that will aid in making people's’ lives easier.">
-    <meta itemprop="image" content="https://mahfuzasif.github.io/img/mahfuz.PNG">
+  <head>
 
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="mahfuzasif">
 
-        ga('create', 'UA-27142446-9', 'auto');
-        ga('send', 'pageview');
-    </script>
-</head>
-<body class="noTransition">
-<!--<div id="particles-js"></div>-->
-<main>
-    <div class="container">
-        <div class="textContainer">
-            <div class="jstext"></div>
+    <title>Mahfuzur Rahman - PortFolio</title>
+	<!--link rel="icon" href="favicon.ico" /-->
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Mahfuzur Rahman</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Achievements</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Mahfuzur
+            <span class="text-primary">Rahman</span>
+          </h1>
+          <div class="subheading mb-5">Mohakhali · Dhaka, Bangladesh · +8801618383510 ·
+            <a href="mailto:mrasif30@gmail.com">mrasif30@gmail.com</a>
+          </div>
+          <p class="lead mb-5">I am a student of B. Sc. in CSE, attending my final semester at BRAC University. I have knowledge of MySQL, Java, Web development (HTML5, CSS, Bootstrap). I have also done a few hardware projects using Arduino and MSP430. I would like to work in future with a team or group where I can apply my learning. I would also like to enrich my knowledge and learn new things.</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mahfuzasif/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/mahfuzasif" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://stackoverflow.com/users/6300027/mahfuz" target="_blank">
+              <i class="fab fa-stack-overflow"></i>
+            </a>
+            <a href="https://www.researchgate.net/profile/Mahfuzur_Rahman29" target="_blank">
+              <i class="fab fa-researchgate"></i>
+            </a>
+            <a href="http://twitter.com/mahfuzasif" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <!--a href="https://www.facebook.com/" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a-->
+          </div>
         </div>
-        <div class="afterTyping">
-            <section id="about">
-                <div class="shortColumn info">
-                    <h4>About</h4>
-                    <div>Mahfuz wants to be a Software Engineer at <a href="http://newscred.com" class="loopCol" target="_blank" data-hover="NewsCred">NewsCred</a> and is presently focusing on new web technologies that are out and about to make everyone's life easier.
-                        <div class="fixedBg noTransition" data-background="webable">
-                            <div class="container">
-                                <span>On the mission</span></br><span>to be a</span></br><span>badass</span></br><span>Engineer!</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+      </section>
 
-            <section id="contact">
-                <div class="shortColumn info">
-                    <h4>get in touch</h4>
-                    <div class="container">
-                        <br>
-                        <div class="social">
-                            <a href="http://facebook.com/mahfuzasif" class="link facebook" target="_parent"><span class="fa fa-facebook-square"></span></a>
-                            <a href="https://twitter.com/mahfuzAsif" class="link twitter" target="_parent"><span class="fa fa-twitter"></span></a>
-                            <a href="mailto:mahfuzrasif@gmail.com" class="link google-plus" target="_parent"><span class="fa fa-envelope"></span></a>
-                            <a href="https://www.youtube.com/c/mahfuzAsif?sub_confirmation=1" class="link youtube" target="_parent"><span class="fa fa-youtube-square"></span></a>
-                            <a href="https://bd.linkedin.com/in/mahfuzasif" class="link linkedin" target="_parent"><span class="fa fa-linkedin-square"></span></a>
-                            <a href="https://github.com/mahfuzasif" class="link github" target="_parent"><span class="fa fa-github-square"></span></a>
-                        </div>
-                    </div>
-            </section>
+      <hr class="m-0">
+	  
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
 
-            <section id="features">
-                <div class="shortColumn info">
-                    <h4>Other Stuff</h4>
-                    <h3>If you don't concentrate on classes enough, check out my <a style="border-bottom: 2px solid white;" href="https://www.youtube.com/c/mahfuzAsif?sub_confirmation=1" title="Click Me!">YouTube</a> Channel for CS based tuts! [Specially ones that are hard to find]</h3>
-                </div>
-                <div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-4">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">BRAC University</h3>
+              <div class="subheading mb-3">Bachelor of Science</div>
+              <div>Computer Science and Engineering</div>
+              <p>CGPA: 3.65</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2014 - December 2018</span>
+            </div>
+          </div>
 
-                </div>
-            </section>
+          <div class="resume-item d-flex flex-column flex-md-row mb-4">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Notre Dame College</h3>
+              <div class="subheading mb-3">Higher Secondary Certificate (HSC)</div>
+			  <div>English Version</div>
+              <p>GPA: 5.00</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2011 - 2013</span>
+            </div>
+          </div>
+		  
+		  <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Savar Cantonment Public School & College</h3>
+              <div class="subheading mb-3">Secondary School Certificate (SSC) </div>
+			  <div>English Version</div>
+              <p>GPA: 5.00</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2009 - 2011</span>
+            </div>
+          </div>
+
         </div>
-    </div> <!--CLOSE CONTAINER -->
+      </section>
 
-</main>
-</body>
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Work Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-4">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Student Tutor</h3>
+              <div class="subheading mb-3">CSE, BRAC University</div>
+			  <div><strong>Course:</strong> CSE221: Algorithms</div>
+              <p><strong>Duties/Responsibilities:</strong><br>
+			  Assisting students in all course work (theory & lab).<br>
+			  Helping them to understand different algorithms.<br>
+			  Guiding to solve different problems and issues.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">October 2018 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-4">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Student Tutor</h3>
+              <div class="subheading mb-3">CSE, BRAC University</div>
+			  <div><strong>Course:</strong> CSE111: Programming Languages-II</div>
+              <p><strong>Duties/Responsibilities:</strong><br>
+			  Assisting students in all course work (theory & lab).<br>
+			  Clarifying about basic concepts of OOP as in Java.<br>
+			  Helping students to cope up with the pace of the class.<br>
+			  Ensuring that students are able to grab the concepts properly.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2018 - August 2018</span>
+            </div>
+          </div>
+		  
+		  <div class="resume-item d-flex flex-column flex-md-row mb-4">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Volunteer</h3>
+              <div class="subheading mb-3">It's Humanity Foundation</div>
+              <p>Volunteer activities like helping the organization in Fund raising for winter clothes distribution, sponsoring education for underprivileged children and rural women empowerment.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2014 - 2016</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">QA Tester</h3>
+              <div class="subheading mb-3">Mozilla Firefox</div>
+              <p><a href="https://quality.mozilla.org/2015/11/firefox-43-0-aurora-testday-results/">Quality Assurance testing done for Firefox 43.0 Aurora</a></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">October 2015</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-php"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-css3-alt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-database"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Browser Testing &amp; Debugging</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Functional Teams</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
+          </ul>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects & Researches</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fas fa-newspaper text-info"></i>
+			  <a href="https://github.com/mahfuzasif/Assembly-Programmes/blob/master/IP_Calculator_CSE341.asm" target="_blank">
+              IP Address Calculator by Assembly [emu8086]</a></li>
+            <li>
+              <i class="fa-li fas fa-graduation-cap text-info"></i>
+			  <a href="https://github.com/mahfuzasif/Assembly-Programmes/blob/master/IP_Calculator_CSE341.asm" target="_blank">
+              IP Address Calculator by Assembly [emu8086]</a></li>
+            <li>
+              <i class="fa-li fas fa-newspaper text-info"></i>
+              “Assistant Director of Human Resource” in Robotics Club of BRAC University</li>
+            <li>
+              <i class="fa-li fas fa-graduation-cap text-info"></i>
+              “Senior Executive of Human Resource” in BRAC University Computer Club</li>
+            <li>
+          </ul>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Certified by BRAC University Computer Club for completing beginner project by Arduino</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Certified by It’s Humanity Foundation as the “Volunteer of the day” for outstanding contribution in Winter Campaign-2016</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              “Assistant Director of Human Resource” in Robotics Club of BRAC University</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              “Senior Executive of Human Resource” in BRAC University Computer Club</li>
+            <li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
 </html>
