@@ -54,6 +54,13 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.subheading3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.2rem;
+}
+
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
@@ -189,4 +196,27 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.collapsible {
+     background-color: #e5e0e0;
+     color: black;
+     cursor: pointer;
+     padding: 10px;
+     width: 100%;
+     border: none;
+     text-align: left;
+     outline: none;
+     font-size: 15px;
+}
+ .collapsible:hover {
+     background-color: #daccc5;
+}
+ .content {
+     padding: 0 20px;
+     padding-top: 10px;
+     display: none;
+     overflow: hidden;
+     border: 1px solid #E8E8E8;
+     background-color: #FFFFFF;
 }
