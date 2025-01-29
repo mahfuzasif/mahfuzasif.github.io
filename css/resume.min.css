@@ -173,12 +173,12 @@ body {
      color: black;
      cursor: pointer;
      padding: 10px;
-     width: 240px;
+     width: 177px;
      border: none;
      border-radius: 8px;
-     text-align: justify;
+     text-align: center;
      outline: none;
-     font-size: 15px;
+     font-size: 13px;
 }
  .collapsible:hover {
      background-color: #daccc5;
